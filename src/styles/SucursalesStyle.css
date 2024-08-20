@@ -1,0 +1,55 @@
+
+/* SUCURSALES */
+.principal-sucursal{
+    position: relative; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 30px; 
+    margin: 0 70px 0 70px; 
+    justify-content: center; 
+    align-items: center;
+}
+.sucursal-title{
+    text-align: center;
+}
+.sucursal-title h1{
+    border-bottom: 8px solid red;
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 0 40px 0 40px;
+}
+
+.img-sucursal{
+    cursor: pointer;
+    position: relative;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-sucursal a{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.img-sucursal a:hover{
+    color: gray;
+}
+.sucursal-description{
+    /* position: absolute; 
+    top: 50%;
+    left: 40%; */
+}
+.imgA1{
+    width: 100%;
+    height: 300px;
+}
+.imgA1:hover{
+    /* opacity: 0.35; */
+    
+}
