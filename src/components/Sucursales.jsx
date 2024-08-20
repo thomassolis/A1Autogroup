@@ -26,7 +26,7 @@ function Sucursales(){
                     
                 </div>
                 <div class="img-sucursal">
-                    <img src={cantabria} class="imgA1" alt=""></img>
+                    <img src={rioAbajo} class="imgA1" alt=""></img>
 
                     <div class="information" >
                     <div style={{fontSize: '25px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
@@ -39,7 +39,7 @@ function Sucursales(){
                 </div>
 
                 <div class="img-sucursal">
-                    <img src={chorrera} class="imgA1" alt=""></img>
+                    <img src={rioAbajo} class="imgA1" alt=""></img>
                     <div class="information" >
                     <div style={{fontSize: '25px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                         <iconify-icon class="ubication-icon" icon="simple-icons:googlemaps"></iconify-icon>
