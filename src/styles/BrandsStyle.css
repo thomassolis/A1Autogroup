@@ -1,0 +1,31 @@
+
+.principal-marcas{
+    margin-top: 70px; 
+    margin-bottom: 70px;
+}
+.container-marcas{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.container-marcas .marca img{
+    width: 120px;
+    cursor: pointer;
+}
+
+.img-marca1:hover{
+    content: url('../img/logos web click-05.png');
+} 
+.img-marca2:hover{
+    content: url('../img/logos web click-07.png');
+} 
+.img-marca3:hover{
+    content: url('../img/logos web click-01.png');
+} 
+.img-marca4:hover{
+    content: url('../img/logos web click-03.png');
+} 
+.img-marca5:hover{
+    content: url('../img/logos web click-09.png');
+} 
