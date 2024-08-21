@@ -1,6 +1,6 @@
 import rioabajo from '../img/rioabajo.jpg';
 import cantabria from '../img/cantabria.jpg';
-import chorrera from '../img/chorrera.jpeg';
+import chorrera from '../img/chorrera.jpg';
 import '../styles/SucursalesStyle.css';
 
 function Sucursales(){
