@@ -1,6 +1,6 @@
-import rioAbajo from '../img/rioabajo.png';
+import rioabajo from '../img/rioabajo.jpg';
 import cantabria from '../img/cantabria.jpg';
-import chorrera from '../img/chorrera.jpg';
+import chorrera from '../img/chorrera.jpeg';
 import '../styles/SucursalesStyle.css';
 
 function Sucursales(){
@@ -12,14 +12,14 @@ function Sucursales(){
 
                 <div class="principal-sucursal" >
                 <div class="img-sucursal">
-                    <img src={rioAbajo} class="imgA1" alt=""></img>
+                    <img src={rioabajo} class="imgA1" alt=""></img>
                     
                     <div class="information" >
                     <div style={{fontSize: '25px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                         <iconify-icon class="ubication-icon" icon="simple-icons:googlemaps"></iconify-icon>
                     </div>
                     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                        <a href="https://maps.app.goo.gl/e42QyeuDgDv8LWac7" target="_blank">Via Espana (Rio Abajo)</a>
+                        <a href="https://maps.app.goo.gl/e42QyeuDgDv8LWac7" target="_blank">Vía España (Río Abajo)</a>
                     </div>
                     </div>
                     
@@ -33,7 +33,7 @@ function Sucursales(){
                         <iconify-icon class="ubication-icon" icon="simple-icons:googlemaps"></iconify-icon>
                     </div>
                     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                        <a href="https://maps.app.goo.gl/bt2ALwVNaHS3YfKk7" target="_blank">Panama Este (Cantabria)</a>
+                        <a href="https://maps.app.goo.gl/bt2ALwVNaHS3YfKk7" target="_blank">Panamá Este (Cantabria)</a>
                     </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ function Sucursales(){
                         <iconify-icon class="ubication-icon" icon="simple-icons:googlemaps"></iconify-icon>
                     </div>
                     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                        <a href="https://maps.app.goo.gl/ze6eM4AZucSrAUSX9" target="_blank">Panama Oeste (Chorrera)</a>
+                        <a href="https://maps.app.goo.gl/ze6eM4AZucSrAUSX9" target="_blank">Panamá Oeste (Chorrera)</a>
                     </div>
                     </div>
                 </div>

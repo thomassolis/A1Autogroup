@@ -1,8 +1,19 @@
-import logo1 from '../img/logos web click-01.png'
-import logo2 from '../img/logos web click-03.png'
-import logo3 from '../img/logos web click-05.png'
-import logo4 from '../img/logos web click-09.png'
-import logo5 from '../img/banner tokiko-01.png'
+import interstate from '../img/logos/INTERSTATE2.png';
+import dixcel from '../img/logos/DIXCEL.png';
+import febest from '../img/logos/FEBEST.png';
+import gmb from '../img/logos/GMB.png';
+import hlmando from '../img/logos/HLMANDO.png';
+import jointfuji from '../img/logos/JOINTFUJI.png';
+import kashiyama from '../img/logos/KASHIYAMA.png';
+import kendall from '../img/logos/KENDALL.png';
+import lucas from '../img/logos/LUCAS2.png';
+import ngk from '../img/logos/NGK.png';
+import redline from '../img/logos/REDLINE.png';
+import showa from '../img/logos/SHOWA.png';
+import skf from '../img/logos/SKF.png';
+import tokico from '../img/logos/TOKICO.png';
+import vic from '../img/logos/VIC.png';
+
 import '../styles/CarouselStyle.css';
 
 function Carousel(){
@@ -15,23 +26,65 @@ function Carousel(){
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 4"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 10"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 11"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 12"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 13"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 14"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14" className="carousel-selector" style={{backgroundColor: 'red'}} aria-label="Slide 15"></button>
+
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active c-item">
-                        <img src={logo1} className="d-block w-100 c-img" alt="..."></img>
-                    </div>
-                    <div class="carousel-item c-item">
-                        <img src={logo2} className="d-block w-100 c-img" alt="..."></img>
-                    </div>
-                    <div class="carousel-item c-item">
-                        <img src={logo3} className="d-block w-100 c-img" alt="..."></img>
-                    </div>
-                    <div class="carousel-item c-item">
-                        <img src={logo4} className="d-block w-100 c-img" alt="..."></img>
-                    </div>
-                    <div class="carousel-item c-item">
-                        <img src={logo5} className="d-block w-100 c-img" alt="..."></img>
-                    </div>
+                  <div class="carousel-item active c-item">
+                      <img src={interstate} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={dixcel} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={febest} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={gmb} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={hlmando} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+
+                  <div class="carousel-item c-item">
+                      <img src={jointfuji} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={kashiyama} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={kendall} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={lucas} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={ngk} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={redline} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={showa} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={skf} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={tokico} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
+                  <div class="carousel-item c-item">
+                      <img src={vic} className="d-block w-100 c-img" alt="..."></img>
+                  </div>
                
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
