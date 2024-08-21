@@ -1,4 +1,4 @@
-import infinity from '../img/marcas/infinity.png';
+import infiniti from '../img/marcas/infiniti.png';
 import hyundai from '../img/marcas/hyundai.png';
 import honda from '../img/marcas/honda.png';
 import acura from '../img/marcas/acura.png';
@@ -17,7 +17,7 @@ function BrandSlider(){
         <section class="slider">
             <div class="slide-track">
                 <div class="slide">
-                    <img class="slide-image" src={infinity} alt=""></img>
+                    <img class="slide-image" src={infiniti} alt=""></img>
                 </div>
 
                 <div class="slide">
