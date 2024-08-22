@@ -53,3 +53,13 @@
     /* opacity: 0.35; */
     
 }
+
+@media (max-width: 480px){
+    
+    .principal-sucursal{
+        display: inline;
+    }
+    .img-sucursal{
+        margin-bottom: 30px;
+    }
+}

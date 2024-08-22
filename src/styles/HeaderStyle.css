@@ -50,3 +50,13 @@
     font-size: 20px;
     color: black;
 }
+
+@media (max-width: 480px){
+    .image-logo{
+        width: 50px;
+    }
+    .head ul{
+        display: none;
+    }
+
+}

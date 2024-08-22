@@ -29,3 +29,9 @@
 .img-marca5:hover{
     content: url('../img/logos web click-09.png');
 } 
+
+@media (max-width: 480px){
+    .principal-marcas{
+        display: none;
+    }
+}

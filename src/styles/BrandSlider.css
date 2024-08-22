@@ -31,3 +31,12 @@
         transform: translateX(calc(-200px*7));
     }
 }
+
+@media (max-width:480px){
+    .slider .slide img{
+        width: 80%;
+    }
+    .slider .slide-track{
+        gap: 20px;
+    }
+}

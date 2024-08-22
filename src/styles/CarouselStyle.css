@@ -37,3 +37,18 @@
     padding-right: 20px;
     height: 90%;
 }
+
+@media (max-width: 480px){
+
+    .carousel-item{
+        height: 65vh;
+    }
+
+    .carousel-footer{       
+        gap: 20px;
+        height: 12vh;
+    }
+    .carousel-footer span{
+        font-size: 10px;
+    }
+}  
