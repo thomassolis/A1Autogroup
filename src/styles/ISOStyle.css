@@ -1,0 +1,13 @@
+.iso-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 0px 40px 0px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.iso-icon{
+    cursor: pointer;
+}

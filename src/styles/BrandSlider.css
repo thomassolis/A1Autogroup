@@ -34,12 +34,9 @@
 }
 
 @media (max-width:480px){
-    .slide-image{
-        width: 100px;
-        height: 100px;
-    }
+
     .slider .slide img{
-        width: 70%;
+        width: 65%;
         height: 40px;
     }
     .slider .slide-track{
