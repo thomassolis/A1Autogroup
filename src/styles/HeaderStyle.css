@@ -52,8 +52,11 @@
 }
 
 @media (max-width: 480px){
+    .head{
+        height: 9vh;
+    }
     .image-logo{
-        width: 50px;
+        width: 70px;
     }
     .head ul{
         display: none;

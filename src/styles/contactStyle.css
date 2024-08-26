@@ -12,3 +12,24 @@
 .contact-day{
     margin: 0px;
 }
+
+.contact-container-days{
+    margin-top: 40px;
+}
+
+@media (max-width:480px){
+    .contact-container{
+        display: flex;
+        gap: 0;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding-top: 25px;
+    }
+    .contact-container p{
+        font-size: 10px;
+    }
+
+    .contact-container-days{
+        margin-top: 10px;
+    }
+}

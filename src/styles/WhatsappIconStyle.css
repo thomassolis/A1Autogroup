@@ -14,3 +14,14 @@
 .principalIcon{
     font-size: 80px;
 }
+
+@media (max-width:480px){
+
+    .whatsappIcon{
+        height: 8vh;
+    }
+
+    .principalIcon{
+        font-size: 50px;
+    }
+}

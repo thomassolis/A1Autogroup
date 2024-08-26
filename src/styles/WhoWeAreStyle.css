@@ -29,9 +29,13 @@
 }
 
 @media (max-width: 480px){
+    .who{
+        flex-direction: column;
+        gap: 0;
+    }
 
     .who-img{
-        display: none;
+      width: 100%;
     }
 
     .who-information{

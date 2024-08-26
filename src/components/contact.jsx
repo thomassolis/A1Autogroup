@@ -3,7 +3,7 @@ import '../styles/contactStyle.css'
 function Contact(){
     return(
         <section className="contact-container">
-            <div className="contact-container-days" style={{marginTop:'40px'}}>
+            <div className="contact-container-days">
                 <p className='contact-day'>HORARIO</p>
                 <p className='contact-day' >Lunes: 8:00am - 5:00pm</p>
                 <p className='contact-day' >Martes: 8:00am - 5:00pm</p>
