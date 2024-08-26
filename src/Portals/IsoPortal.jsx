@@ -1,5 +1,5 @@
 import ISOImage from '../img/ISO/ISO.jpg'
-
+import '../styles/IsoPortalStyle.css'
 function IsoPortal({ onClose }) {
     return (
         <div style={{
@@ -14,7 +14,7 @@ function IsoPortal({ onClose }) {
             alignItems: 'center',
             zIndex: 1000
         }}>
-            <div style={{ backgroundColor: 'white', padding: '20px', borderRadius: '8px', display: 'flex', flexDirection:'column', width:'28%', alignItems:'center'}}>
+            <div className='IsoPortal-container'>
                 <img src={ISOImage} alt="" style={{width: '100%'}}/>
                 <button onClick={onClose}>Cerrar</button>
             </div>

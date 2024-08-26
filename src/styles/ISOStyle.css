@@ -11,3 +11,12 @@
 .iso-icon{
     cursor: pointer;
 }
+
+
+@media (max-width:480px){
+
+    .iso-container{
+        padding: 40px 30px 40px 30px;
+    }
+
+}
