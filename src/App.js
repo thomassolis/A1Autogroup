@@ -14,7 +14,7 @@ function App() {
       <Carousel/>
       <WhoWeAre/>
       <Sucursales/>
-      <Brands/>
+      {/* <Brands/> */}
       <Information/>
       <BrandSlider/>
       <WhatsappIcon/>
