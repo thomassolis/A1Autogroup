@@ -6,7 +6,7 @@ import Brands from "./components/Brands";
 import Information from "./components/Information";
 import BrandSlider from "./components/BrandSlider";
 import WhatsappIcon from "./components/WhatsappIcon";
-
+import Contact from "./components/contact";
 function App() {
   return (
     <>
@@ -15,7 +15,8 @@ function App() {
       <WhoWeAre/>
       <Sucursales/>
       {/* <Brands/> */}
-      <Information/>
+      {/* <Information/> */}
+      <Contact/>
       <BrandSlider/>
       <WhatsappIcon/>
     </>
