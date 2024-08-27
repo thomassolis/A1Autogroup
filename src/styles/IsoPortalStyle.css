@@ -15,14 +15,32 @@
     display: flex;
     flex-direction:column;
     width:28%; 
-    align-items:'center';
+    align-items:center;
+    position: relative;
 } 
+
+.icon-close{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
 
 @media (max-width:480px){
 
     .IsoPortal-container{
         width: 100%;
         padding: 5px;
+    }
+
+    .icon-close{
+        right: 1px;
+        top: 1px;
+        font-size: 28px;
+        cursor: pointer;
+        
     }
 
 } 

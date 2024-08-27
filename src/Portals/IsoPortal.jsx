@@ -16,7 +16,8 @@ function IsoPortal({ onClose }) {
         }}>
             <div className='IsoPortal-container'>
                 <img src={ISOImage} alt="" style={{width: '100%'}}/>
-                <button onClick={onClose}>Cerrar</button>
+                {/* <button onClick={onClose}>Cerrar</button> */}
+                <iconify-icon onClick={onClose} class="icon-close" icon="carbon:close-filled"></iconify-icon>
             </div>
         </div>
     );
