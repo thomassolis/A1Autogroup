@@ -1,6 +1,11 @@
+.carousel-item{
+    width: 90%;
+    margin-left: 390px;
+}
+
 .c-item{
     width: 40%;
-    height: 70vh;
+    height: 75vh;
 }
 
 .c-img{
@@ -25,10 +30,6 @@
 .carousel-footer-icon{
     font-size: 25px;
   
-}
-
-.carousel-item{
-    width: 100%;
 }
 
 .d-block{
